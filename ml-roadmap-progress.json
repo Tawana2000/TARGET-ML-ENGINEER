@@ -88,7 +88,7 @@
       ],
       "project": "1M row dataset processing",
       "topicsCompleted": [
-        false,
+        true,
         false,
         false,
         false
@@ -1894,5 +1894,5 @@
   },
   "achievements": [],
   "startDate": "2025-11-29T12:49:41.079Z",
-  "lastSynced": "2025-11-29T12:56:16.180Z"
+  "lastSynced": "2025-11-29T13:07:06.620Z"
 }
