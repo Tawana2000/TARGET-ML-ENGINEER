@@ -3,31 +3,1896 @@
     {
       "week": 1,
       "month": 1,
-      "title": "Test Week",
+      "title": "Elite Python & Data Engineering",
       "topics": [
-        "Topic 1",
-        "Topic 2"
+        {
+          "name": "NumPy Broadcasting",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "NumPy Official Docs",
+              "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "CS231n NumPy Tutorial",
+              "url": "https://cs231n.github.io/python-numpy-tutorial/"
+            },
+            {
+              "icon": "💻",
+              "name": "NumPy Exercises",
+              "url": "https://github.com/rougier/numpy-100"
+            }
+          ]
+        },
+        {
+          "name": "Pandas Optimization",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Pandas Performance",
+              "url": "https://pandas.pydata.org/docs/user_guide/enhancingperf.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Modern Pandas Guide",
+              "url": "https://tomaugspurger.net/posts/modern-1-intro/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Pandas Performance Tips",
+              "url": "https://www.youtube.com/watch?v=HN5d490_KKk"
+            }
+          ]
+        },
+        {
+          "name": "Polars",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Polars Official Docs",
+              "url": "https://pola-rs.github.io/polars-book/"
+            },
+            {
+              "icon": "📝",
+              "name": "Polars User Guide",
+              "url": "https://pola-rs.github.io/polars/user-guide/"
+            },
+            {
+              "icon": "🔗",
+              "name": "Polars GitHub",
+              "url": "https://github.com/pola-rs/polars"
+            }
+          ]
+        },
+        {
+          "name": "Python Profiling",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Python Profilers",
+              "url": "https://docs.python.org/3/library/profile.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Profiling Guide",
+              "url": "https://realpython.com/python-profiling/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Performance Optimization",
+              "url": "https://www.youtube.com/watch?v=RT88FrHhks0"
+            }
+          ]
+        }
       ],
+      "project": "1M row dataset processing",
       "topicsCompleted": [
-        true,
+        false,
+        false,
+        false,
         false
-      ],
-      "project": "Test project"
-    }
-  ],
-  "logs": [
+      ]
+    },
     {
-      "id": 1764421484252,
-      "date": "2025-11-29",
-      "hours": 2,
-      "notes": "Test log entry"
+      "week": 2,
+      "month": 1,
+      "title": "Elite Math for ML",
+      "topics": [
+        {
+          "name": "Matrix Calculus",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Matrix Calculus for ML",
+              "url": "https://explained.ai/matrix-calculus/"
+            },
+            {
+              "icon": "📝",
+              "name": "The Matrix Cookbook",
+              "url": "https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf"
+            },
+            {
+              "icon": "🎥",
+              "name": "3Blue1Brown Linear Algebra",
+              "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+            }
+          ]
+        },
+        {
+          "name": "Jacobians & Hessians",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Jacobian Matrix Explained",
+              "url": "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant"
+            },
+            {
+              "icon": "📝",
+              "name": "Multivariable Calculus",
+              "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Hessian Intuition",
+              "url": "https://www.youtube.com/watch?v=LbBcuZukCAw"
+            }
+          ]
+        },
+        {
+          "name": "Gradient Vectorization",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Vectorization Guide",
+              "url": "https://cs231n.github.io/optimization-1/"
+            },
+            {
+              "icon": "📝",
+              "name": "Backprop Math",
+              "url": "https://cs231n.stanford.edu/handouts/derivatives.pdf"
+            },
+            {
+              "icon": "💻",
+              "name": "NumPy Vectorization",
+              "url": "https://realpython.com/numpy-array-programming/"
+            }
+          ]
+        },
+        {
+          "name": "PCA Math",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "PCA Tutorial",
+              "url": "https://arxiv.org/abs/1404.1100"
+            },
+            {
+              "icon": "🎥",
+              "name": "StatQuest PCA",
+              "url": "https://www.youtube.com/watch?v=FgakZw6K1QQ"
+            },
+            {
+              "icon": "💻",
+              "name": "PCA from Scratch",
+              "url": "https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html"
+            }
+          ]
+        }
+      ],
+      "project": "PCA from scratch",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 3,
+      "month": 1,
+      "title": "Core ML Fast & Deep",
+      "topics": [
+        {
+          "name": "Linear/Logistic Regression",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Andrew Ng ML Course",
+              "url": "https://www.coursera.org/learn/machine-learning"
+            },
+            {
+              "icon": "📝",
+              "name": "Regression Analysis",
+              "url": "https://scikit-learn.org/stable/modules/linear_model.html"
+            },
+            {
+              "icon": "💻",
+              "name": "Build from Scratch",
+              "url": "https://github.com/eriklindernoren/ML-From-Scratch"
+            }
+          ]
+        },
+        {
+          "name": "SVM Theory",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "SVM Tutorial",
+              "url": "https://web.mit.edu/6.034/wwwbob/svm.pdf"
+            },
+            {
+              "icon": "🎥",
+              "name": "StatQuest SVM",
+              "url": "https://www.youtube.com/watch?v=efR1C6CvhmE"
+            },
+            {
+              "icon": "📝",
+              "name": "Understanding SVM",
+              "url": "https://scikit-learn.org/stable/modules/svm.html"
+            }
+          ]
+        },
+        {
+          "name": "Ensemble Methods",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Ensemble Learning Guide",
+              "url": "https://scikit-learn.org/stable/modules/ensemble.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "Random Forest Explained",
+              "url": "https://www.youtube.com/watch?v=J4Wdy0Wc_xQ"
+            },
+            {
+              "icon": "📝",
+              "name": "Boosting vs Bagging",
+              "url": "https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205"
+            }
+          ]
+        },
+        {
+          "name": "XGBoost Internals",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "XGBoost Paper",
+              "url": "https://arxiv.org/abs/1603.02754"
+            },
+            {
+              "icon": "📝",
+              "name": "XGBoost Docs",
+              "url": "https://xgboost.readthedocs.io/"
+            },
+            {
+              "icon": "🎥",
+              "name": "XGBoost Explained",
+              "url": "https://www.youtube.com/watch?v=OtD8wVaFm6E"
+            }
+          ]
+        }
+      ],
+      "project": "ML from scratch",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 4,
+      "month": 1,
+      "title": "ML Systems + Feature Engineering",
+      "topics": [
+        {
+          "name": "Feature Stores",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Feast Documentation",
+              "url": "https://docs.feast.dev/"
+            },
+            {
+              "icon": "📝",
+              "name": "Feature Store Concepts",
+              "url": "https://www.featurestore.org/"
+            },
+            {
+              "icon": "🔗",
+              "name": "Tecton Guide",
+              "url": "https://www.tecton.ai/blog/what-is-a-feature-store/"
+            }
+          ]
+        },
+        {
+          "name": "Embeddings",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Word2Vec Tutorial",
+              "url": "https://jalammar.github.io/illustrated-word2vec/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Entity Embeddings",
+              "url": "https://www.youtube.com/watch?v=EATAM3BOD_E"
+            },
+            {
+              "icon": "📝",
+              "name": "Tabular Embeddings",
+              "url": "https://arxiv.org/abs/1604.06737"
+            }
+          ]
+        },
+        {
+          "name": "Feature Engineering",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Feature Engineering Book",
+              "url": "https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/"
+            },
+            {
+              "icon": "📝",
+              "name": "Kaggle Feature Eng",
+              "url": "https://www.kaggle.com/learn/feature-engineering"
+            },
+            {
+              "icon": "💻",
+              "name": "FeatureTools",
+              "url": "https://www.featuretools.com/"
+            }
+          ]
+        },
+        {
+          "name": "Kaggle Techniques",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Kaggle Learn",
+              "url": "https://www.kaggle.com/learn"
+            },
+            {
+              "icon": "📝",
+              "name": "Winning Solutions",
+              "url": "https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions"
+            },
+            {
+              "icon": "🎥",
+              "name": "Kaggle Grandmaster Tips",
+              "url": "https://www.youtube.com/watch?v=GJBOMWpLpTQ"
+            }
+          ]
+        }
+      ],
+      "project": "Top 10% Kaggle",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 5,
+      "month": 2,
+      "title": "Neural Network Internals",
+      "topics": [
+        {
+          "name": "Forward/Backward Pass",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "CS231n Backprop",
+              "url": "https://cs231n.github.io/optimization-2/"
+            },
+            {
+              "icon": "🎥",
+              "name": "3Blue1Brown Neural Nets",
+              "url": "https://www.youtube.com/watch?v=aircAruvnKk"
+            },
+            {
+              "icon": "💻",
+              "name": "Micrograd",
+              "url": "https://github.com/karpathy/micrograd"
+            }
+          ]
+        },
+        {
+          "name": "Loss Landscapes",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Loss Landscape Paper",
+              "url": "https://arxiv.org/abs/1712.09913"
+            },
+            {
+              "icon": "🎥",
+              "name": "Visualizing Loss",
+              "url": "https://www.youtube.com/watch?v=XfN9FW2jCR0"
+            },
+            {
+              "icon": "💻",
+              "name": "Loss Landscape Viz",
+              "url": "https://github.com/tomgoldstein/loss-landscape"
+            }
+          ]
+        },
+        {
+          "name": "Gradient Problems",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Vanishing Gradients",
+              "url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem"
+            },
+            {
+              "icon": "🎥",
+              "name": "Gradient Flow",
+              "url": "https://www.youtube.com/watch?v=qO_NLVjD6zE"
+            },
+            {
+              "icon": "📝",
+              "name": "Batch Normalization",
+              "url": "https://arxiv.org/abs/1502.03167"
+            }
+          ]
+        },
+        {
+          "name": "Initialization",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Xavier/He Init",
+              "url": "https://www.deeplearning.ai/ai-notes/initialization/"
+            },
+            {
+              "icon": "📝",
+              "name": "Weight Init Guide",
+              "url": "https://machinelearningmastery.com/weight-initialization-for-deep-learning-neural-networks/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Initialization Explained",
+              "url": "https://www.youtube.com/watch?v=8krd5qKVw-Q"
+            }
+          ]
+        }
+      ],
+      "project": "NN library from scratch",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 6,
+      "month": 2,
+      "title": "PyTorch Mastery",
+      "topics": [
+        {
+          "name": "DataLoaders",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "PyTorch Data Loading",
+              "url": "https://pytorch.org/tutorials/beginner/basics/data_tutorial.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Custom Datasets",
+              "url": "https://pytorch.org/tutorials/beginner/data_loading_tutorial.html"
+            },
+            {
+              "icon": "💻",
+              "name": "Dataset Examples",
+              "url": "https://github.com/pytorch/vision/tree/main/torchvision/datasets"
+            }
+          ]
+        },
+        {
+          "name": "Custom Modules",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "nn.Module Guide",
+              "url": "https://pytorch.org/docs/stable/notes/modules.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Building Blocks",
+              "url": "https://pytorch.org/tutorials/beginner/examples_nn/two_layer_net_module.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "PyTorch in 100 Lines",
+              "url": "https://www.youtube.com/watch?v=Z_ikDlimN6A"
+            }
+          ]
+        },
+        {
+          "name": "Mixed Precision (AMP)",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Automatic Mixed Precision",
+              "url": "https://pytorch.org/docs/stable/amp.html"
+            },
+            {
+              "icon": "📝",
+              "name": "AMP Tutorial",
+              "url": "https://pytorch.org/tutorials/recipes/recipes/amp_recipe.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "Speed Up Training",
+              "url": "https://www.youtube.com/watch?v=pnJc5tOoXHg"
+            }
+          ]
+        },
+        {
+          "name": "PyTorch Lightning",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Lightning Docs",
+              "url": "https://pytorch-lightning.readthedocs.io/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Lightning in 15min",
+              "url": "https://www.youtube.com/watch?v=QHww1JH7IDU"
+            },
+            {
+              "icon": "💻",
+              "name": "Lightning Examples",
+              "url": "https://github.com/Lightning-AI/lightning/tree/master/examples"
+            }
+          ]
+        }
+      ],
+      "project": "Production training pipeline",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 7,
+      "month": 2,
+      "title": "CNNs Elite",
+      "topics": [
+        {
+          "name": "ResNet/DenseNet",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "ResNet Paper",
+              "url": "https://arxiv.org/abs/1512.03385"
+            },
+            {
+              "icon": "📝",
+              "name": "DenseNet Paper",
+              "url": "https://arxiv.org/abs/1608.06993"
+            },
+            {
+              "icon": "💻",
+              "name": "Implement ResNet",
+              "url": "https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py"
+            }
+          ]
+        },
+        {
+          "name": "Convolution Math",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Conv Arithmetic",
+              "url": "https://github.com/vdumoulin/conv_arithmetic"
+            },
+            {
+              "icon": "🎥",
+              "name": "CS231n CNNs",
+              "url": "https://www.youtube.com/watch?v=bNb2fEVKeEo"
+            },
+            {
+              "icon": "📝",
+              "name": "Conv Layer Guide",
+              "url": "https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53"
+            }
+          ]
+        },
+        {
+          "name": "Data Augmentation",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Albumentations",
+              "url": "https://albumentations.ai/"
+            },
+            {
+              "icon": "📝",
+              "name": "torchvision transforms",
+              "url": "https://pytorch.org/vision/stable/transforms.html"
+            },
+            {
+              "icon": "💻",
+              "name": "imgaug Library",
+              "url": "https://github.com/aleju/imgaug"
+            }
+          ]
+        },
+        {
+          "name": "AutoAugment",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "AutoAugment Paper",
+              "url": "https://arxiv.org/abs/1805.09501"
+            },
+            {
+              "icon": "📝",
+              "name": "RandAugment",
+              "url": "https://arxiv.org/abs/1909.13719"
+            },
+            {
+              "icon": "💻",
+              "name": "Augmentation Library",
+              "url": "https://github.com/DeepVoltaire/AutoAugment"
+            }
+          ]
+        }
+      ],
+      "project": "CIFAR-10 90% accuracy",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 8,
+      "month": 2,
+      "title": "NLP + Sequence Models",
+      "topics": [
+        {
+          "name": "Word2Vec",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Word2Vec Paper",
+              "url": "https://arxiv.org/abs/1301.3781"
+            },
+            {
+              "icon": "🎥",
+              "name": "Word Embeddings Explained",
+              "url": "https://www.youtube.com/watch?v=viZrOnJclY0"
+            },
+            {
+              "icon": "💻",
+              "name": "Gensim Word2Vec",
+              "url": "https://radimrehurek.com/gensim/models/word2vec.html"
+            }
+          ]
+        },
+        {
+          "name": "LSTM/GRU Internals",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Understanding LSTM",
+              "url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/"
+            },
+            {
+              "icon": "🎥",
+              "name": "LSTM Explained",
+              "url": "https://www.youtube.com/watch?v=8HyCNIVRbSU"
+            },
+            {
+              "icon": "📝",
+              "name": "GRU vs LSTM",
+              "url": "https://arxiv.org/abs/1412.3555"
+            }
+          ]
+        },
+        {
+          "name": "Attention Mechanism",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Attention Paper",
+              "url": "https://arxiv.org/abs/1409.0473"
+            },
+            {
+              "icon": "🎥",
+              "name": "Attention Explained",
+              "url": "https://www.youtube.com/watch?v=fjJOgb-E41w"
+            },
+            {
+              "icon": "📝",
+              "name": "Illustrated Attention",
+              "url": "https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/"
+            }
+          ]
+        },
+        {
+          "name": "Seq2seq",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Seq2seq Paper",
+              "url": "https://arxiv.org/abs/1409.3215"
+            },
+            {
+              "icon": "💻",
+              "name": "PyTorch Seq2seq",
+              "url": "https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "Seq2seq Explained",
+              "url": "https://www.youtube.com/watch?v=L8HKweZIOmg"
+            }
+          ]
+        }
+      ],
+      "project": "IMDB sentiment classifier",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 9,
+      "month": 3,
+      "title": "Transformers Internals",
+      "topics": [
+        {
+          "name": "Self-Attention Math",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Attention is All You Need",
+              "url": "https://arxiv.org/abs/1706.03762"
+            },
+            {
+              "icon": "🎥",
+              "name": "Illustrated Transformer",
+              "url": "https://www.youtube.com/watch?v=4Bdc55j80l8"
+            },
+            {
+              "icon": "📝",
+              "name": "Annotated Transformer",
+              "url": "https://nlp.seas.harvard.edu/2018/04/03/attention.html"
+            }
+          ]
+        },
+        {
+          "name": "Q/K/V Matrices",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Query Key Value",
+              "url": "https://jalammar.github.io/illustrated-transformer/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Self-Attention Deep Dive",
+              "url": "https://www.youtube.com/watch?v=yGTUuEx3GkA"
+            },
+            {
+              "icon": "📝",
+              "name": "Attention Mechanisms",
+              "url": "https://lilianweng.github.io/posts/2018-06-24-attention/"
+            }
+          ]
+        },
+        {
+          "name": "Multi-head Attention",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Multi-head Explained",
+              "url": "https://data-science-blog.com/blog/2021/04/07/multi-head-attention-mechanism/"
+            },
+            {
+              "icon": "💻",
+              "name": "PyTorch Implementation",
+              "url": "https://pytorch.org/docs/stable/generated/torch.nn.MultiheadAttention.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "Transformer from Scratch",
+              "url": "https://www.youtube.com/watch?v=U0s0f995w14"
+            }
+          ]
+        },
+        {
+          "name": "Scaling Laws",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Scaling Laws Paper",
+              "url": "https://arxiv.org/abs/2001.08361"
+            },
+            {
+              "icon": "📝",
+              "name": "Chinchilla Paper",
+              "url": "https://arxiv.org/abs/2203.15556"
+            },
+            {
+              "icon": "🎥",
+              "name": "Scaling Explained",
+              "url": "https://www.youtube.com/watch?v=dO4TPJkeaaU"
+            }
+          ]
+        }
+      ],
+      "project": "Transformer from scratch",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 10,
+      "month": 3,
+      "title": "HuggingFace + Fine-Tuning",
+      "topics": [
+        {
+          "name": "Tokenizers",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "HF Tokenizers",
+              "url": "https://huggingface.co/docs/tokenizers/"
+            },
+            {
+              "icon": "📝",
+              "name": "Tokenizer Guide",
+              "url": "https://huggingface.co/learn/nlp-course/chapter2/4"
+            },
+            {
+              "icon": "💻",
+              "name": "Custom Tokenizer",
+              "url": "https://huggingface.co/docs/tokenizers/quicktour"
+            }
+          ]
+        },
+        {
+          "name": "Trainer API",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "HF Trainer Docs",
+              "url": "https://huggingface.co/docs/transformers/main_classes/trainer"
+            },
+            {
+              "icon": "📝",
+              "name": "Fine-tuning Tutorial",
+              "url": "https://huggingface.co/learn/nlp-course/chapter3/1"
+            },
+            {
+              "icon": "🎥",
+              "name": "Training with HF",
+              "url": "https://www.youtube.com/watch?v=nvBXf7s7vTI"
+            }
+          ]
+        },
+        {
+          "name": "LoRA",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "LoRA Paper",
+              "url": "https://arxiv.org/abs/2106.09685"
+            },
+            {
+              "icon": "📝",
+              "name": "PEFT Library",
+              "url": "https://github.com/huggingface/peft"
+            },
+            {
+              "icon": "💻",
+              "name": "LoRA Tutorial",
+              "url": "https://huggingface.co/docs/peft/conceptual_guides/lora"
+            }
+          ]
+        },
+        {
+          "name": "QLoRA",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "QLoRA Paper",
+              "url": "https://arxiv.org/abs/2305.14314"
+            },
+            {
+              "icon": "📝",
+              "name": "4-bit Training",
+              "url": "https://huggingface.co/blog/4bit-transformers-bitsandbytes"
+            },
+            {
+              "icon": "💻",
+              "name": "QLoRA Guide",
+              "url": "https://github.com/artidoro/qlora"
+            }
+          ]
+        }
+      ],
+      "project": "Fine-tune BERT 90%+",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 11,
+      "month": 3,
+      "title": "LLM Application Engineering",
+      "topics": [
+        {
+          "name": "Vector Databases",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "FAISS",
+              "url": "https://github.com/facebookresearch/faiss"
+            },
+            {
+              "icon": "📝",
+              "name": "Pinecone Docs",
+              "url": "https://docs.pinecone.io/"
+            },
+            {
+              "icon": "💻",
+              "name": "ChromaDB",
+              "url": "https://www.trychroma.com/"
+            }
+          ]
+        },
+        {
+          "name": "RAG Architecture",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "RAG Paper",
+              "url": "https://arxiv.org/abs/2005.11401"
+            },
+            {
+              "icon": "📝",
+              "name": "LangChain RAG",
+              "url": "https://python.langchain.com/docs/use_cases/question_answering/"
+            },
+            {
+              "icon": "🎥",
+              "name": "RAG Explained",
+              "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+            }
+          ]
+        },
+        {
+          "name": "LangChain",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "LangChain Docs",
+              "url": "https://python.langchain.com/docs/get_started/introduction"
+            },
+            {
+              "icon": "💻",
+              "name": "LangChain GitHub",
+              "url": "https://github.com/langchain-ai/langchain"
+            },
+            {
+              "icon": "🎥",
+              "name": "LangChain Crash Course",
+              "url": "https://www.youtube.com/watch?v=LbT1yp6quS8"
+            }
+          ]
+        },
+        {
+          "name": "Prompt Engineering",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "OpenAI Best Practices",
+              "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+            },
+            {
+              "icon": "📝",
+              "name": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/"
+            },
+            {
+              "icon": "💻",
+              "name": "Learn Prompting",
+              "url": "https://learnprompting.org/"
+            }
+          ]
+        }
+      ],
+      "project": "ChatGPT clone with RAG",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 12,
+      "month": 3,
+      "title": "Research Paper Replication",
+      "topics": [
+        {
+          "name": "Paper Analysis",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "How to Read Papers",
+              "url": "https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf"
+            },
+            {
+              "icon": "🎥",
+              "name": "Reading ML Papers",
+              "url": "https://www.youtube.com/watch?v=733m6qBH-jI"
+            },
+            {
+              "icon": "📝",
+              "name": "Papers with Code",
+              "url": "https://paperswithcode.com/"
+            }
+          ]
+        },
+        {
+          "name": "Implementation",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Implementation Tips",
+              "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+            },
+            {
+              "icon": "💻",
+              "name": "PyTorch Examples",
+              "url": "https://github.com/pytorch/examples"
+            },
+            {
+              "icon": "📝",
+              "name": "Reproducing Papers",
+              "url": "https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Experiment Logging",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "MLflow Tracking",
+              "url": "https://mlflow.org/docs/latest/tracking.html"
+            },
+            {
+              "icon": "📝",
+              "name": "W&B Experiments",
+              "url": "https://docs.wandb.ai/guides/track"
+            },
+            {
+              "icon": "💻",
+              "name": "TensorBoard",
+              "url": "https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html"
+            }
+          ]
+        },
+        {
+          "name": "Reproducing Results",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Reproducibility Guide",
+              "url": "https://www.tensorflow.org/guide/checkpoint"
+            },
+            {
+              "icon": "📝",
+              "name": "Random Seeds",
+              "url": "https://pytorch.org/docs/stable/notes/randomness.html"
+            },
+            {
+              "icon": "🎥",
+              "name": "Research Code",
+              "url": "https://www.youtube.com/watch?v=Kx2d0i7m9zc"
+            }
+          ]
+        }
+      ],
+      "project": "Reproduce major paper",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 13,
+      "month": 4,
+      "title": "ML in Production",
+      "topics": [
+        {
+          "name": "Batch vs Online Inference",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "ML Systems Design",
+              "url": "https://github.com/chiphuyen/machine-learning-systems-design"
+            },
+            {
+              "icon": "📝",
+              "name": "Inference Patterns",
+              "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+            },
+            {
+              "icon": "🎥",
+              "name": "Production ML",
+              "url": "https://www.youtube.com/watch?v=AWt0F_r1paU"
+            }
+          ]
+        },
+        {
+          "name": "Hardware Optimization",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "GPU Performance",
+              "url": "https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Model Optimization",
+              "url": "https://pytorch.org/tutorials/beginner/optimization_tutorial.html"
+            },
+            {
+              "icon": "💻",
+              "name": "torch.compile",
+              "url": "https://pytorch.org/tutorials/intermediate/torch_compile_tutorial.html"
+            }
+          ]
+        },
+        {
+          "name": "ONNX",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "ONNX Docs",
+              "url": "https://onnx.ai/onnx/"
+            },
+            {
+              "icon": "📝",
+              "name": "PyTorch to ONNX",
+              "url": "https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html"
+            },
+            {
+              "icon": "💻",
+              "name": "ONNX Runtime",
+              "url": "https://onnxruntime.ai/"
+            }
+          ]
+        },
+        {
+          "name": "TensorRT",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "TensorRT Docs",
+              "url": "https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/"
+            },
+            {
+              "icon": "📝",
+              "name": "Torch-TensorRT",
+              "url": "https://pytorch.org/TensorRT/"
+            },
+            {
+              "icon": "🎥",
+              "name": "TensorRT Tutorial",
+              "url": "https://www.youtube.com/watch?v=M_JcxCXUxlg"
+            }
+          ]
+        }
+      ],
+      "project": "Model optimization pipeline",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 14,
+      "month": 4,
+      "title": "Deployment + APIs",
+      "topics": [
+        {
+          "name": "FastAPI",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "FastAPI Docs",
+              "url": "https://fastapi.tiangolo.com/"
+            },
+            {
+              "icon": "📝",
+              "name": "ML with FastAPI",
+              "url": "https://fastapi.tiangolo.com/deployment/docker/"
+            },
+            {
+              "icon": "🎥",
+              "name": "FastAPI Course",
+              "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+            }
+          ]
+        },
+        {
+          "name": "Async Inference",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Async Python",
+              "url": "https://realpython.com/async-io-python/"
+            },
+            {
+              "icon": "📝",
+              "name": "Background Tasks",
+              "url": "https://fastapi.tiangolo.com/tutorial/background-tasks/"
+            },
+            {
+              "icon": "💻",
+              "name": "Celery",
+              "url": "https://docs.celeryq.dev/en/stable/"
+            }
+          ]
+        },
+        {
+          "name": "Queues (Redis)",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Redis Docs",
+              "url": "https://redis.io/docs/"
+            },
+            {
+              "icon": "📝",
+              "name": "Redis Queue",
+              "url": "https://python-rq.org/"
+            },
+            {
+              "icon": "💻",
+              "name": "Redis-py",
+              "url": "https://github.com/redis/redis-py"
+            }
+          ]
+        },
+        {
+          "name": "Rate Limiting",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "SlowAPI",
+              "url": "https://github.com/laurentS/slowapi"
+            },
+            {
+              "icon": "📝",
+              "name": "Rate Limiting Patterns",
+              "url": "https://redis.io/glossary/rate-limiting/"
+            },
+            {
+              "icon": "💻",
+              "name": "fastapi-limiter",
+              "url": "https://github.com/long2ice/fastapi-limiter"
+            }
+          ]
+        }
+      ],
+      "project": "Production ML API",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 15,
+      "month": 4,
+      "title": "Docker + CI/CD",
+      "topics": [
+        {
+          "name": "Dockerfiles for ML",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Docker Docs",
+              "url": "https://docs.docker.com/get-started/"
+            },
+            {
+              "icon": "📝",
+              "name": "ML Docker Best Practices",
+              "url": "https://github.com/docker/awesome-compose/tree/master/fastapi"
+            },
+            {
+              "icon": "🎥",
+              "name": "Docker for ML",
+              "url": "https://www.youtube.com/watch?v=0qG_0CPQhpg"
+            }
+          ]
+        },
+        {
+          "name": "Lightweight Images",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Multi-stage Builds",
+              "url": "https://docs.docker.com/build/building/multi-stage/"
+            },
+            {
+              "icon": "📝",
+              "name": "Image Optimization",
+              "url": "https://docs.docker.com/develop/dev-best-practices/"
+            },
+            {
+              "icon": "💻",
+              "name": "Slim Base Images",
+              "url": "https://github.com/GoogleContainerTools/distroless"
+            }
+          ]
+        },
+        {
+          "name": "GitHub Actions",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Actions Docs",
+              "url": "https://docs.github.com/en/actions"
+            },
+            {
+              "icon": "📝",
+              "name": "ML CI/CD",
+              "url": "https://github.com/iterative/cml"
+            },
+            {
+              "icon": "💻",
+              "name": "Workflow Examples",
+              "url": "https://github.com/actions/starter-workflows"
+            }
+          ]
+        },
+        {
+          "name": "Automated Pipelines",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "MLOps Pipeline",
+              "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+            },
+            {
+              "icon": "📝",
+              "name": "DVC Pipelines",
+              "url": "https://dvc.org/doc/user-guide/pipelines"
+            },
+            {
+              "icon": "💻",
+              "name": "Kubeflow",
+              "url": "https://www.kubeflow.org/docs/started/introduction/"
+            }
+          ]
+        }
+      ],
+      "project": "Full CI/CD system",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 16,
+      "month": 4,
+      "title": "Experiment Tracking",
+      "topics": [
+        {
+          "name": "MLflow",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "MLflow Docs",
+              "url": "https://mlflow.org/docs/latest/index.html"
+            },
+            {
+              "icon": "📝",
+              "name": "MLflow Tutorial",
+              "url": "https://mlflow.org/docs/latest/tutorials-and-examples/tutorial.html"
+            },
+            {
+              "icon": "💻",
+              "name": "MLflow Recipes",
+              "url": "https://github.com/mlflow/mlflow/tree/master/examples"
+            }
+          ]
+        },
+        {
+          "name": "Weights & Biases",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "W&B Docs",
+              "url": "https://docs.wandb.ai/"
+            },
+            {
+              "icon": "📝",
+              "name": "W&B Course",
+              "url": "https://www.wandb.courses/"
+            },
+            {
+              "icon": "🎥",
+              "name": "W&B Tutorial",
+              "url": "https://www.youtube.com/watch?v=gnD8BFuyVUA"
+            }
+          ]
+        },
+        {
+          "name": "DVC",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "DVC Docs",
+              "url": "https://dvc.org/doc"
+            },
+            {
+              "icon": "📝",
+              "name": "Data Versioning",
+              "url": "https://dvc.org/doc/start/data-management"
+            },
+            {
+              "icon": "💻",
+              "name": "DVC Studio",
+              "url": "https://studio.iterative.ai/"
+            }
+          ]
+        },
+        {
+          "name": "Model Registry",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "MLflow Registry",
+              "url": "https://mlflow.org/docs/latest/model-registry.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Model Management",
+              "url": "https://neptune.ai/blog/ml-model-registry"
+            },
+            {
+              "icon": "💻",
+              "name": "Registry Patterns",
+              "url": "https://github.com/bentoml/BentoML"
+            }
+          ]
+        }
+      ],
+      "project": "Complete tracking system",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 17,
+      "month": 5,
+      "title": "Capstone Project Part 1",
+      "topics": [
+        {
+          "name": "System Design",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "ML System Design",
+              "url": "https://github.com/chiphuyen/machine-learning-systems-design"
+            },
+            {
+              "icon": "📝",
+              "name": "Design Patterns",
+              "url": "https://eugeneyan.com/writing/ml-design-docs/"
+            },
+            {
+              "icon": "🎥",
+              "name": "System Design Interview",
+              "url": "https://www.youtube.com/watch?v=gNQ9-kgyHY0"
+            }
+          ]
+        },
+        {
+          "name": "Architecture",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Architecture Patterns",
+              "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/"
+            },
+            {
+              "icon": "📝",
+              "name": "ML Architecture",
+              "url": "https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf"
+            },
+            {
+              "icon": "💻",
+              "name": "Reference Architectures",
+              "url": "https://github.com/practical-tutorials/project-based-learning#machine-learning"
+            }
+          ]
+        },
+        {
+          "name": "Planning",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Project Planning",
+              "url": "https://github.com/eugeneyan/applied-ml"
+            },
+            {
+              "icon": "📝",
+              "name": "ML Canvas",
+              "url": "https://www.louisdorard.com/machine-learning-canvas"
+            },
+            {
+              "icon": "💻",
+              "name": "Project Templates",
+              "url": "https://github.com/drivendata/cookiecutter-data-science"
+            }
+          ]
+        },
+        {
+          "name": "Setup",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Project Structure",
+              "url": "https://docs.python-guide.org/writing/structure/"
+            },
+            {
+              "icon": "📝",
+              "name": "Dev Environment",
+              "url": "https://realpython.com/python-virtual-environments-a-primer/"
+            },
+            {
+              "icon": "💻",
+              "name": "Poetry",
+              "url": "https://python-poetry.org/docs/"
+            }
+          ]
+        }
+      ],
+      "project": "Elite project start",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 18,
+      "month": 5,
+      "title": "Capstone Project Part 2",
+      "topics": [
+        {
+          "name": "Implementation",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Clean Code",
+              "url": "https://github.com/zedr/clean-code-python"
+            },
+            {
+              "icon": "📝",
+              "name": "Python Best Practices",
+              "url": "https://docs.python-guide.org/writing/style/"
+            },
+            {
+              "icon": "💻",
+              "name": "Design Patterns",
+              "url": "https://github.com/faif/python-patterns"
+            }
+          ]
+        },
+        {
+          "name": "Testing",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "pytest Docs",
+              "url": "https://docs.pytest.org/"
+            },
+            {
+              "icon": "📝",
+              "name": "Testing ML Code",
+              "url": "https://madewithml.com/courses/mlops/testing/"
+            },
+            {
+              "icon": "💻",
+              "name": "Great Expectations",
+              "url": "https://docs.greatexpectations.io/"
+            }
+          ]
+        },
+        {
+          "name": "Optimization",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Performance Tips",
+              "url": "https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html"
+            },
+            {
+              "icon": "📝",
+              "name": "Profiling",
+              "url": "https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html"
+            },
+            {
+              "icon": "💻",
+              "name": "Optimization Tools",
+              "url": "https://github.com/bentoml/BentoML"
+            }
+          ]
+        },
+        {
+          "name": "Deployment",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Deployment Guide",
+              "url": "https://madewithml.com/courses/mlops/deployment/"
+            },
+            {
+              "icon": "📝",
+              "name": "Serving Patterns",
+              "url": "https://github.com/mercari/ml-system-design-pattern"
+            },
+            {
+              "icon": "🎥",
+              "name": "Production ML",
+              "url": "https://www.youtube.com/watch?v=QiD9-XJoMQI"
+            }
+          ]
+        }
+      ],
+      "project": "Elite project finish",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 19,
+      "month": 5,
+      "title": "Kaggle Competition",
+      "topics": [
+        {
+          "name": "Competition Strategy",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Kaggle Learn",
+              "url": "https://www.kaggle.com/learn"
+            },
+            {
+              "icon": "📝",
+              "name": "Winning Strategies",
+              "url": "https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions"
+            },
+            {
+              "icon": "🎥",
+              "name": "Kaggle Grandmaster",
+              "url": "https://www.youtube.com/watch?v=GJBOMWpLpTQ"
+            }
+          ]
+        },
+        {
+          "name": "Feature Engineering",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Kaggle Feature Eng",
+              "url": "https://www.kaggle.com/learn/feature-engineering"
+            },
+            {
+              "icon": "📝",
+              "name": "Advanced Features",
+              "url": "https://www.kaggle.com/code/willkoehrsen/introduction-to-feature-engineering"
+            },
+            {
+              "icon": "💻",
+              "name": "FeatureTools",
+              "url": "https://www.featuretools.com/"
+            }
+          ]
+        },
+        {
+          "name": "Ensembling",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "Ensemble Guide",
+              "url": "https://mlwave.com/kaggle-ensembling-guide/"
+            },
+            {
+              "icon": "📝",
+              "name": "Stacking",
+              "url": "https://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/"
+            },
+            {
+              "icon": "🎥",
+              "name": "Ensemble Methods",
+              "url": "https://www.youtube.com/watch?v=Un9zObFjBH0"
+            }
+          ]
+        },
+        {
+          "name": "Model Selection",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "AutoML",
+              "url": "https://github.com/microsoft/FLAML"
+            },
+            {
+              "icon": "📝",
+              "name": "Hyperparameter Tuning",
+              "url": "https://optuna.org/"
+            },
+            {
+              "icon": "💻",
+              "name": "AutoGluon",
+              "url": "https://auto.gluon.ai/"
+            }
+          ]
+        }
+      ],
+      "project": "Top 10-20% finish",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "week": 20,
+      "month": 5,
+      "title": "Portfolio + Interview Prep",
+      "topics": [
+        {
+          "name": "Resume Polish",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "ML Resume Guide",
+              "url": "https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs"
+            },
+            {
+              "icon": "📝",
+              "name": "Resume Examples",
+              "url": "https://github.com/sb2nov/resume"
+            },
+            {
+              "icon": "🎥",
+              "name": "Tech Resume Tips",
+              "url": "https://www.youtube.com/watch?v=BYUy1yvjHxE"
+            }
+          ]
+        },
+        {
+          "name": "GitHub Cleanup",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "README Guide",
+              "url": "https://github.com/matiassingers/awesome-readme"
+            },
+            {
+              "icon": "📝",
+              "name": "Profile README",
+              "url": "https://github.com/abhisheknaiidu/awesome-github-profile-readme"
+            },
+            {
+              "icon": "💻",
+              "name": "Documentation",
+              "url": "https://github.com/mkdocs/mkdocs"
+            }
+          ]
+        },
+        {
+          "name": "System Design",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "ML System Design Interview",
+              "url": "https://bytebytego.com/courses/machine-learning-system-design-interview"
+            },
+            {
+              "icon": "📝",
+              "name": "Design Patterns",
+              "url": "https://github.com/khangich/machine-learning-interview"
+            },
+            {
+              "icon": "🎥",
+              "name": "Mock Interviews",
+              "url": "https://www.youtube.com/watch?v=gNQ9-kgyHY0"
+            }
+          ]
+        },
+        {
+          "name": "LeetCode Practice",
+          "resources": [
+            {
+              "icon": "📘",
+              "name": "LeetCode Patterns",
+              "url": "https://seanprashad.com/leetcode-patterns/"
+            },
+            {
+              "icon": "📝",
+              "name": "Blind 75",
+              "url": "https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU"
+            },
+            {
+              "icon": "💻",
+              "name": "NeetCode",
+              "url": "https://neetcode.io/"
+            }
+          ]
+        }
+      ],
+      "project": "Job ready portfolio",
+      "topicsCompleted": [
+        false,
+        false,
+        false,
+        false
+      ]
     }
   ],
+  "logs": [],
   "skills": {
-    "python": 2,
-    "ml": 1
+    "python": 0,
+    "ml": 0,
+    "dl": 0,
+    "llm": 0,
+    "mlops": 0,
+    "pytorch": 0,
+    "system": 0,
+    "dsa": 0
   },
   "achievements": [],
-  "startDate": "2025-11-29T13:04:44.252Z",
-  "lastSynced": "2025-11-29T13:04:44.252Z"
+  "startDate": "2025-11-29T12:49:41.079Z",
+  "lastSynced": "2025-11-29T12:56:16.180Z"
 }
